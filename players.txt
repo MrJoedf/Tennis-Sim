@@ -1,10 +1,16 @@
 Djokovic, 90, 95
 Nadal, 85, 93
-Thiem, 87, 87
 Federer, 92, 84
+Murray, 91, 92
+Wawrinka, 89, 85
 Medvedev, 87, 88
+Thiem, 87, 87
 Tsitsipas, 88, 83
 Zverev, 88, 85
 Berrettini, 85, 83
 Monfils, 87, 86
 Goffin, 83, 88
+Nishikori, 83,88
+Cilic, 92, 84
+del Potro, 90, 82
+Tsonga, 89, 83
