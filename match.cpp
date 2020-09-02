@@ -28,8 +28,6 @@ void match::getMatchScore() {
     cout<<this->matchScore;
 }
 
-
-
 int match::playMatch() {
     ofstream matchFile;
     matchFile.open("testmatch.txt");
@@ -42,7 +40,6 @@ int match::playMatch() {
                     } else if (set1.playSet(player1, player2) == 0) {
                         setP2();
                         matchFile<<set1.getP1Games()<<"-"<<set1.getP2Games()<<endl;
-
             }
         }
          if(this->numSets==3){
