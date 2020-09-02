@@ -8,7 +8,6 @@
 #include <sstream>
 #include <iostream>
 #include <fstream>
-
 using namespace std;
 
 void match::setP1(){
