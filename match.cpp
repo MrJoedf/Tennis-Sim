@@ -73,7 +73,7 @@ int match::playMatch() {
                 return 2;
 
                 //POTENTIAL THIRD SET
-            }else if(this->p2Set==this->p2Set){
+            }else if(this->p2Set==1 && this->p2Set==p1Set){
                 cout<<player1.getName()<<" TO SERVE: "<<endl;
                 set set3(player1, player2);
                 if (set3.playSet(player1, player2) == 1) {
