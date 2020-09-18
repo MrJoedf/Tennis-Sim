@@ -34,7 +34,6 @@ int game::playPoint() {
     float result = (rand() % 100) * 1.0;
     //cout << fixed << setprecision(2) << "PROB: " << prob << endl;
     //If result is less than or equal to probability of winning, server wins point since greater odds typically
-    //cout<<"RESULT: "<<result<<endl;
 
     int serverWon = (result<=prob);
     return serverWon;
@@ -60,31 +59,23 @@ int game::playDeuce(){
     if(abs(serveScore-returnScore)==2){
         return(serveScore-returnScore)==2;
     }
-
-
     //If result is less than or equal to probability of winning, server wins point since greater odds typically
 
 }
-
-
     int game::playGame() {
         while (this->serveScore < 4 && this->returnScore < 4) {
             if (playPoint() == 1) {
                 this->serveScore++;
-                //cout << this->serveScore << "-" << this->returnScore << endl;
-            } else {
+            }else{
                 this->returnScore++;
-                //cout << this->serveScore << "-" << this->returnScore << endl;
             }
         }
         if (this->serveScore == 3 || this->returnScore == 3) {
             if (this->serveScore == this->returnScore) {
                 return (playDeuce());
-            } else {
-
+            }else{
                 return (serveScore > returnScore);
             }
         }
-
     }
 
